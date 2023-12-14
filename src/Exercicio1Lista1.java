@@ -11,9 +11,10 @@ public class Exercicio1Lista1 {
 
         System.out.println("Digite a sua idade: ");
         int idade = scan.nextInt();
+        scan.nextLine();
 
         System.out.println("Digite a sua profissão: ");
-        String profissao = scan.next();
+        String profissao = scan.nextLine();
 
         System.out.printf("Prazer %s, a idade informada foi de: %d anos e a profissão de: '%s' ",nome,idade,profissao);
 
